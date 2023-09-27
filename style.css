@@ -3,8 +3,35 @@ h1,h2 {
 }
 
 body {
-  background-image: url('https://media.istockphoto.com/id/1307427072/vector/surfboards-on-hawaii-ocean-beach.jpg?s=612x612&w=0&k=20&c=KqRrxDbMhbkrSV8QSZMB4EnG0JSf4JNUIyDB-RCzcUo=');
-  color: darkblue;
-  font-family:  'Roboto','Ubuntu';
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7c4b6776185717.5c627ee400d01.gif');
+  color: white;
+  font-family: 'Roboto', 'Ubuntu', serif;
+  background-size: cover;
 }
 
+.image-wrapper {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin-left: 120px;
+  overflow: hidden;
+}
+
+.surferImages {
+  width: 100%;
+  display: block;
+  object-fit: cover; /* Ensures the image covers the entire space without distorting its aspect ratio. */
+  height: 200px; /* Keeps all images of the same height. */
+}
+
+.image-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black for readability */
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}

@@ -20,8 +20,8 @@ body {
 .surferImages {
   width: 100%;
   display: block;
-  object-fit: cover; /* Ensures the image covers the entire space without distorting its aspect ratio. */
-  height: 200px; /* Keeps all images of the same height. */
+  object-fit: cover;
+  height: 200px;
 }
 
 .image-label {
@@ -29,7 +29,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black for readability */
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   text-align: center;
   padding: 5px 0;
